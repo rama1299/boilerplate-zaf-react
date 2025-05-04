@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate zaf",
+  "author": {
+    "name": "zaf",
+    "email": "ramadhan@apergu.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+        "nav_bar": {
+            "url": "http://localhost:5173/zaf/",
+            "flexible": true,
+            "icon": "/assets/icon_nav_bar.svg"
+          },
+          "ticket_sidebar": {
+            "url": "http://localhost:5173/zaf/",
+            "flexible": true
+          },
+          "top_bar": {
+            "url": "http://localhost:5173/zaf/",
+            "flexible": true
+          }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
