@@ -1,12 +1,36 @@
-# React + Vite
+# ZAF React Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a boilerplate setup for starting frontend projects using **React** integrated with **Zendesk App Framework (ZAF)**. It's designed to streamline your development workflow for building Zendesk apps using modern frontend tools.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React + Vite for fast development
+- 🧰 Integrated with Zendesk App Framework via ZCLI
+- 🧪 ESLint for code quality and consistency
+- ⚙️ Custom scripts to simplify ZAF app management
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/zaf-react-boilerplate.git
+cd zaf-react-boilerplate
+
+### 2. Install Dependencies
+
+```bash
+npm install
+
+### 3. Install ZCLI Globally (if not already installed)
+
+```bash
+npm install -g @zendesk/zcli
+
+### 4. Run the App
+
+```bash
+npm run dev
+npm run zaf:server
